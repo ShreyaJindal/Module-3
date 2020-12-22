@@ -1,0 +1,159 @@
+#header-nav{
+    background-color:gray;
+    width: inherit;
+    border-radius: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 0;
+}
+
+.container{
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.navbar-brand{
+    padding-top: 25px;
+}
+
+.navbar-brand h1{
+    font-family: 'Merriweather', serif;
+    color: #2D3142;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 6px;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+
+#nav-list a{
+    color: #2d3142;
+    text-align: center;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #2d3142;
+}
+
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -20px;
+}
+
+.container p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/*******************Large Devices****************/
+@media(min-width:1200px){
+    #menu-tile, #specials-tile, #map-tile{
+        height: 390px;
+        width: 100%;
+        margin-bottom: 25px;
+        position: relative;
+        border: 2px solid #2D3142;
+    }
+    
+    #menu-tile span, #specials-tile span, #map-tile span{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        text-align: left;
+        font-size: 1.2em;
+    }
+}
+
+/*******************Medium Devices****************/
+@media(min-width:992px) and (max-width:1199px){
+    #menu-tile, #specials-tile, #map-tile{
+        height: 450px;
+        width: 100%;
+        margin-bottom: 25px;
+        position: relative;
+        border: 1px solid #2D3142;
+    }
+    
+    #menu-tile span, #specials-tile span, #map-tile span{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        text-align: left;
+        font-size: 1.2em;
+    }
+} 
+
+/*******************Small Devices****************/
+@media(min-width:768px) and (max-width:991px){
+    #menu-tile, #specials-tile, #map-tile{
+        height: 590px;
+        width: 100%;
+        margin-bottom: 25px;
+        position: relative;
+        border: 1px solid #2D3142;
+    }
+    
+    #menu-tile span, #specials-tile span, #map-tile span{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 5px;
+        text-align: left;
+        font-size: 1.2em;
+    }
+} 
+
+
+
+/*******************Extra Small Devices****************/
+@media (max-width:767px){
+    /*START HEADER*/
+    .navbar-brand{
+       padding-top: 10px;
+       height: 20px;
+   }    
+   .navbar-brand h1{
+       font-size: 5vw;
+       padding-top: 10px;
+   }   
+   #collapsable-nav a{
+    font-size: 1.2em;
+   }
+   #menu-tile, #specials-tile, #map-tile{
+    height: 635px;
+    width: 100%;
+    margin-bottom: 25px;
+    position: relative;
+    border: 1px solid #2D3142
+    }
+
+    #menu-tile span, #specials-tile span, #map-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 1.2em;
+    }
+   
+}
+
+
+
+
+
